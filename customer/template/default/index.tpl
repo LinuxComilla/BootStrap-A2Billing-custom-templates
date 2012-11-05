@@ -44,7 +44,7 @@
 			{
 			if(document.form.pr_login.value=="" || document.form.pr_password.value=="")
 			{
-			alert("Debe ingresar su usuario y password!" + document.form.pr_password.value);
+			alert("You must enter an user and a password!" + document.form.pr_password.value);
 			return false;
 			}
 			else
