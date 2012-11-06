@@ -96,21 +96,21 @@
 						<label class="control-label" for="inputPassword"></label>
 						<div class="controls">
 							<select name="ui_language" id="ui_language" >
-								    <option style="background-image:url(templates/{$SKIN_NAME}/images/flags/gb.gif);" value="english" {php} if(LANGUAGE=="english") echo "selected";{/php} >English</option>
-			                        <option style="background-image:url(templates/{$SKIN_NAME}/images/flags/es.gif);" value="spanish" {php} if(LANGUAGE=="spanish") echo "selected";{/php} >Spanish</option>
-			                        <option style="background-image:url(templates/{$SKIN_NAME}/images/flags/fr.gif);" value="french" {php} if(LANGUAGE=="french") echo "selected";{/php} >French</option>
-			                        <option style="background-image:url(templates/{$SKIN_NAME}/images/flags/de.gif);" value="german" {php} if(LANGUAGE=="german") echo "selected";{/php} >German</option>
-			                        <option style="background-image:url(templates/{$SKIN_NAME}/images/flags/pt.gif);" value="portuguese" {php} if(LANGUAGE=="portuguese") echo "selected";{/php} >Portuguese</option>
-			                        <option style="background-image:url(templates/{$SKIN_NAME}/images/flags/br.gif);" value="brazilian" {php} if(LANGUAGE=="brazilian") echo "selected";{/php}>Brazilian</option>
-			                        <option style="background-image:url(templates/{$SKIN_NAME}/images/flags/it.gif);" value="italian" {php} if(LANGUAGE=="italian") echo "selected";{/php} >Italian</option>
-			                        <option style="background-image:url(templates/{$SKIN_NAME}/images/flags/cn.gif);" value="chinese" {php} if(LANGUAGE=="chinese") echo "selected";{/php} >Chinese</option>
-			                        <option style="background-image:url(templates/{$SKIN_NAME}/images/flags/ro.gif);" value="romanian" {php} if(LANGUAGE=="romanian") echo "selected";{/php} >Romanian</option>
-			                        <option style="background-image:url(templates/{$SKIN_NAME}/images/flags/pl.gif);" value="polish" {php} if(LANGUAGE=="polish") echo "selected";{/php} >Polish</option>
-			                        <option style="background-image:url(templates/{$SKIN_NAME}/images/flags/ru.gif);" value="russian" {php} if(LANGUAGE=="russian") echo "selected";{/php} >Russian</option>
-			                        <option style="background-image:url(templates/{$SKIN_NAME}/images/flags/tr.gif);" value="turkish" {php} if(LANGUAGE=="turkish") echo "selected";{/php} >Turkish</option>
-			                        <option style="background-image:url(templates/{$SKIN_NAME}/images/flags/pk.gif);" value="urdu" {php} if(LANGUAGE=="urdu") echo "selected";{/php} >Urdu</option>
-			                        <option style="background-image:url(templates/{$SKIN_NAME}/images/flags/ua.gif);" value="ukrainian" {php} if(LANGUAGE=="ukrainian") echo "selected";{/php} >Ukrainian</option>
-			                        <option style="background-image:url(templates/{$SKIN_NAME}/images/flags/gr.gif);" value="greek" {php} if(LANGUAGE=="greek") echo "selected";{/php} >Greek</option>
+								    <option style="background:url(templates/{$SKIN_NAME}/images/flags/gb.gif) no-repeat left center;padding-left:25px;" value="english" {php} if(LANGUAGE=="english") echo "selected";{/php} >English</option>
+			                        <option style="background:url(templates/{$SKIN_NAME}/images/flags/es.gif) no-repeat left center;padding-left:25px;" value="spanish" {php} if(LANGUAGE=="spanish") echo "selected";{/php} >Spanish</option>
+			                        <option style="background:url(templates/{$SKIN_NAME}/images/flags/fr.gif) no-repeat left center;padding-left:25px;" value="french" {php} if(LANGUAGE=="french") echo "selected";{/php} >French</option>
+			                        <option style="background:url(templates/{$SKIN_NAME}/images/flags/de.gif) no-repeat left center;padding-left:25px;" value="german" {php} if(LANGUAGE=="german") echo "selected";{/php} >German</option>
+			                        <option style="background:url(templates/{$SKIN_NAME}/images/flags/pt.gif) no-repeat left center;padding-left:25px;" value="portuguese" {php} if(LANGUAGE=="portuguese") echo "selected";{/php} >Portuguese</option>
+			                        <option style="background:url(templates/{$SKIN_NAME}/images/flags/br.gif) no-repeat left center;padding-left:25px;" value="brazilian" {php} if(LANGUAGE=="brazilian") echo "selected";{/php}>Brazilian</option>
+			                        <option style="background:url(templates/{$SKIN_NAME}/images/flags/it.gif) no-repeat left center;padding-left:25px;" value="italian" {php} if(LANGUAGE=="italian") echo "selected";{/php} >Italian</option>
+			                        <option style="background:url(templates/{$SKIN_NAME}/images/flags/cn.gif) no-repeat left center;padding-left:25px;" value="chinese" {php} if(LANGUAGE=="chinese") echo "selected";{/php} >Chinese</option>
+			                        <option style="background:url(templates/{$SKIN_NAME}/images/flags/ro.gif) no-repeat left center;padding-left:25px;" value="romanian" {php} if(LANGUAGE=="romanian") echo "selected";{/php} >Romanian</option>
+			                        <option style="background:url(templates/{$SKIN_NAME}/images/flags/pl.gif) no-repeat left center;padding-left:25px;" value="polish" {php} if(LANGUAGE=="polish") echo "selected";{/php} >Polish</option>
+			                        <option style="background:url(templates/{$SKIN_NAME}/images/flags/ru.gif) no-repeat left center;padding-left:25px;" value="russian" {php} if(LANGUAGE=="russian") echo "selected";{/php} >Russian</option>
+			                        <option style="background:url(templates/{$SKIN_NAME}/images/flags/tr.gif) no-repeat left center;padding-left:25px;" value="turkish" {php} if(LANGUAGE=="turkish") echo "selected";{/php} >Turkish</option>
+			                        <option style="background:url(templates/{$SKIN_NAME}/images/flags/pk.gif) no-repeat left center;padding-left:25px;" value="urdu" {php} if(LANGUAGE=="urdu") echo "selected";{/php} >Urdu</option>
+			                        <option style="background:url(templates/{$SKIN_NAME}/images/flags/ua.gif) no-repeat left center;padding-left:25px;" value="ukrainian" {php} if(LANGUAGE=="ukrainian") echo "selected";{/php} >Ukrainian</option>
+			                        <option style="background:url(templates/{$SKIN_NAME}/images/flags/gr.gif) no-repeat left center;padding-left:25px;" value="greek" {php} if(LANGUAGE=="greek") echo "selected";{/php} >Greek</option>
 							</select>
 						</div>
 					</div>
